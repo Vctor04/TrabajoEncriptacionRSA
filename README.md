@@ -17,7 +17,7 @@ generar firmas digitales.
 
 
 ### _Funcionamiento_ ⚙️
-He hecho un programa que consta de 4 clases fundamentales. La primera se llama **_"CreaClaves"_**, que como su nombre dice, genera las claves publica y privada, guardandolas en ficheros que tu le tienes que proporcionar. En mi caso los guardo en dos ficheros de texto plano (.txt). 
+He hecho un programa que consta de 4 clases fundamentales. La primera se llama **_"CreaClaves"_**, que como su nombre dice, genera las claves publica y privada, guardandolas en ficheros que tu le tienes que proporcionar. En mi caso los guardo en dos ficheros de texto plano (.txt), los cuales están _previamente creados_ en blanco.
 
 En segundo lugar, está la clase de encriptación llamada **_"EncriptaFichero"_**, que se encarga de encriptar un fichero que nos pide por pantalla, para lo cual nos pide el fichero donde hemos guardado la clave pública. Generando un fichero con el nombre del proporcinado, pero con la extensión ".txt.crypto". 
 
