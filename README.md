@@ -19,9 +19,16 @@ generar firmas digitales.
 ### _Funcionamiento_ ⚙️
 He hecho un programa que consta de 4 clases fundamentales. La primera se llama **_"CreaClaves"_**, que como su nombre dice, genera las claves publica y privada, guardandolas en ficheros que tu le tienes que proporcionar. En mi caso los guardo en dos ficheros de texto plano (.txt). 
 
-En segundo lugar está la clase de encriptación llamada **_"EncriptaFichero"_**, que se encarga de encriptar un fichero que nos pide por pantalla, para lo cual nos pide el fichero donde hemos guardado la clave pública. Generando un fichero con el nombre del proporcinado, pero con la extensión ".txt.crypto". 
+En segundo lugar, está la clase de encriptación llamada **_"EncriptaFichero"_**, que se encarga de encriptar un fichero que nos pide por pantalla, para lo cual nos pide el fichero donde hemos guardado la clave pública. Generando un fichero con el nombre del proporcinado, pero con la extensión ".txt.crypto". 
 
-Por último tenemos la clase **_"DesencriptaFichero"_**, la cual desencripta el fichero que la clase anterior ha generado. Para esto nos pide por pantalla el archivo encriptado, el cual tiene que tener la extensión .crypto, y también nos pide el fichero con la clave privada y la contraseña (la cual tiene que ser igual que la que le pusimos al crear la clave privada). Una vez hecho esto, nos genera un fichero con la información desencriptada al cual le pone el mismo nombre que el fichero encriptado solo que le quita la extensión .crypto. (Lo cual nos crearía un archivo ".txt.txt", para que podamos diferenciarlo del original)
+En tercer lugar, tenemos la clase **_"DesencriptaFichero"_**, la cual desencripta el fichero que la clase anterior ha generado. Para esto nos pide por pantalla el archivo encriptado, el cual tiene que tener la extensión .crypto, y también nos pide el fichero con la clave privada y la contraseña (la cual tiene que ser igual que la que le pusimos al crear la clave privada). Una vez hecho esto, nos genera un fichero con la información desencriptada al cual le pone el mismo nombre que el fichero encriptado solo que le quita la extensión .crypto. (Lo cual nos crearía un archivo ".txt.txt", para que podamos diferenciarlo del original).
+
+Por último tenemos la clase **_"Main"_**, que ejecuta todas las clases anteriores.
+
+### _Ejemplo de ejecución_ ⌨️
+
+![Imagen](https://files.catbox.moe/v45rlp.png)
+
 
 ### _Construido con_ 🛠️
 * IntelliJ IDEA 2023.3.2 - Java
