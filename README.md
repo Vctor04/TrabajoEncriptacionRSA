@@ -29,6 +29,7 @@ Por último tenemos la clase **_"Main"_**, que ejecuta todas las clases anterior
 
 ![Imagen](https://files.catbox.moe/v45rlp.png)
 
+Como podemos ver, es muy intuitivo y nos pide claramente lo que debemos de insertar por pantalla. Lo único que hay que tener en cuenta es que pide continuamente rutas **absolutas**.
 
 ### _Construido con_ 🛠️
 * IntelliJ IDEA 2023.3.2 - Java
