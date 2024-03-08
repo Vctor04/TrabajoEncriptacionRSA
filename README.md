@@ -24,7 +24,7 @@ En segundo lugar está la clase de encriptación llamada **_"EncriptaFichero"_**
 Por último tenemos la clase **_"DesencriptaFichero"_**, la cual desencripta el fichero que la clase anterior ha generado. Para esto nos pide por pantalla el archivo encriptado, el cual tiene que tener la extensión .crypto, y también nos pide el fichero con la clave privada y la contraseña (la cual tiene que ser igual que la que le pusimos al crear la clave privada). Una vez hecho esto, nos genera un fichero con la información desencriptada al cual le pone el mismo nombre que el fichero encriptado solo que le quita la extensión .crypto. (Lo cual nos crearía un archivo ".txt.txt", para que podamos diferenciarlo del original)
 
 ### _Construido con_ 🛠️
-* VisualStudioCode - Java
+* IntelliJ IDEA 2023.3.2 - Java
 
 ### _Fuentes_ 📖
 Tanto para la base del código como para los conceptos esenciales e información, me he basado en apuntes proporcionados por el profesor. 
